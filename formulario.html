@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--esto es para iconos pero no pude hacer un icono xd-->
+    <link rel="icon" href="icono.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Pagina web de ejemplo para la clase de HTML avanzado. Aquí se pueden incluir elementos avanzados como formularios, tablas, multimedia y más.">
+    <meta name="keywords" content="HTML, avanzado, clases,curso, web, diseño, desarrollo">
+    <meta name="author" content="Noa Miyauchi">
+    <form action="https://formsubmit.co/your@email.com" method="POST">
+</head>
+<body>
+    <form>
+        <h2>Formulario</h2>
+        <div class="form-input">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" name="Nombre" id="nombre" placeholder="Noa Miyauchi" > 
+        </div>
+        <div class="form-input">
+            <label for="email">Email</label>
+            <input type="email" id="email"
+            name="email" placeholder="gatobaboso@gmail.com">
+        </div>
+        <div class="form-input">
+            <label for="usuario">tipo de usuario
+                <select class="option" name="usuario">
+                    <option value="N/A">ninguno</option>
+                    <option value="Gato">perro</option>
+                    <option value="Perro">gato</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-input">
+            <label>Estado
+                <select name="estado">
+                    <option value="estudiante">ninguno</option>
+                    <option value="estudiantes">estudiante</option>
+                    <option value="trabajador">trabajador</option>
+                </select>
+            </label>
+        </div>
+        <div class="form-input">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" placeholder="Escribe aqui"></textarea>
+        </div>
+        <div class="form-input submit">
+            <input type="submit" value="Enviar" name="submit">
+        </div>
+    </form>
+</body>
+</html>
